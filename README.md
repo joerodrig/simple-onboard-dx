@@ -1,8 +1,8 @@
-## Simple-Onboard-DX
+# Simple-Onboard-DX
 
 Setup a new MacOS development environment the simple way.
 
-To personalize this setup, clone or fork this repo and update the configs
+To personalize this setup, clone or fork this repo and update the configs.
 
 # What's downloaded/installed
 
@@ -13,10 +13,8 @@ To personalize this setup, clone or fork this repo and update the configs
 4. Postman
 
 ### Managers Installed
-1. Homebrew
-  - Subpackages: git, ruby-install, redis, chruby
-2. Nvm
-  - Subpackages: Node 12.16.3, npm (latest)
+1. Homebrew(subpackages: git, ruby-install, redis, chruby)
+2. Nvm(subpackages: Node 12.16.3, npm (latest))
 
 ### Applications Downloaded(Manually install these!)
 1. Docker
@@ -46,7 +44,7 @@ This script will create a new directory called `manual` in the directory the set
 - Try and keep downloads/installs to a minimum if you're using this to onboard people to a new team. The more complicated you make the setup, the less likely it becomes that people will be able to, or want to maintain things in the future. 
 
 # Inspiration 
-This project demonstrates the simplicity of automating a development environment setup. My inspiration for this came from working at a few different companies and outside projects and finding that there were common applications I'd need to manually install, as well as app-specific dependencies I needed before being able to work on anything. There are many existing solutions to speed this proces up: You can role your own [Puppet](https://puppet.com/) configs, or learn and use a system like [Boxen](https://github.com/boxen). You can also set up pre-built images or use tools like JAMF to push through installations. 
+This project demonstrates the simplicity of automating a development environment setup. My inspiration for this came from working at a few different companies and outside projects and finding that there were common applications I'd need to manually install, as well as app-specific dependencies I needed before being able to work on anything. There are many existing solutions to speed up this process: You can role your own [Puppet](https://puppet.com/) configs, or learn and use a system like [Boxen](https://github.com/boxen). You can also set up pre-built images or use tools like JAMF to push through installations. 
 
 Unfortunately, unless you have a team already familiar with that system, or tasked with improving developer experience, the ROI is low, and the overhead high. For most cases, a few simple bash scripts can address most installation steps, and most people know enough bash to be able to easily contribute any future changes. The goal is not to build the 'perfect' dev machine from scratch, but rather give access to most of the common tooling a new machine should have.
 
